@@ -1,0 +1,563 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;
+
+700&family=Old+Standard+TT:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+@font-face {
+	font-family: "Milkshake";
+	font-display: swap;
+	src: url("../fonts/Milkshake.woff") format("woff"), url("../fonts/Milkshake.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+	font-family: "'Ubuntu', sans-serif";
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: "'Ubuntu', sans-serif";
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body {
+	font-size: 18px;
+}
+
+._no-webp .header {
+	background: url("../img/background.png") 0 0 no-repeat;
+}
+
+.header {
+	margin-bottom: 100px;
+	height: 100vh;
+	min-width: 1700px;
+}
+
+.header__inner {
+	min-width: 1500px;
+	margin-bottom: 260px;
+}
+
+.header__logo {
+	color: #ffffff;
+	font-family: Milkshake;
+	font-size: 51px;
+	font-weight: 400;
+	line-height: 30.4px;
+	display: inline-block;
+	padding: 21px 0px 0px 180px;
+	margin-right: 363px;
+	cursor: pointer;
+}
+
+.header__menu {
+	display: inline-block;
+	margin-right: 350px;
+}
+
+.header__menu li {
+	display: inline-block;
+}
+
+.header__menu-link {
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 72px;
+	text-transform: uppercase;
+	letter-spacing: 1.44px;
+	margin-right: 50px;
+}
+
+.header__menu-link:active {
+	font-size: 17px;
+}
+
+.header__icon {
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 72px;
+	text-transform: uppercase;
+	letter-spacing: 1.44px;
+}
+
+.header__icon::before {
+	content: url(../img/basket.png);
+	margin-right: 13px;
+}
+
+.header__text {
+	text-align: center;
+}
+
+.header__title {
+	color: #ffffff;
+	font-family: "Old Standard TT";
+	font-size: 72px;
+	font-weight: 400;
+	line-height: 72px;
+	margin-bottom: 26px;
+}
+
+.header__subtitle {
+	color: #c2c1c1;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 32px;
+	letter-spacing: 1.68px;
+	margin-bottom: 50px;
+}
+
+.header__play .header__play-link:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+._no-webp .subscribe {
+	background: url(../img/bg.png) 0 0 / cover no-repeat;
+}
+
+.subscribe {
+	text-align: center;
+	min-width: 1700px;
+	max-height: 800px;
+	padding: 120px 320px 120px 320px;
+}
+
+.subscribe__top {
+	margin: 0px auto;
+	width: 93%;
+	height: 451px;
+	-webkit-box-shadow: 0 0 30px rgba(60, 60, 60, 0.2);
+	box-shadow: 0 0 30px rgba(60, 60, 60, 0.2);
+	background-color: #ffffff;
+}
+
+.subscribe__top .subscribe__subtitle {
+	margin-bottom: 60px;
+}
+
+.subscribe__title {
+	padding-top: 100px;
+	margin-bottom: 40px;
+}
+
+.subscribe__form-input {
+	width: 442px;
+	height: 60px;
+	background-color: #e8e8e8;
+	font-size: 18px;
+	padding-left: 28px;
+	color: #6a6a6a;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.08px;
+	margin-right: -5px;
+}
+
+.subscribe__form-button {
+	display: inline-block;
+}
+
+.subscribe__form span {
+	text-transform: none;
+	font-size: 18px;
+}
+
+.subscribe__bottom {
+	margin-top: 140px;
+}
+
+.subscribe__bottom::before {
+	content: "";
+	opacity: 0.6;
+	margin: 0px auto;
+	display: block;
+	width: 93%;
+	height: 1px;
+	background-color: #ffffff;
+}
+
+.subscribe__text {
+	display: inline-block;
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 1.08px;
+	margin-right: 635px;
+	padding-top: 26px;
+}
+
+.subscribe__text:last-child {
+	margin-right: 0;
+}
+
+.title {
+	color: #3c3c3c;
+	font-family: "Old Standard TT";
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 60px;
+	text-align: center;
+}
+
+.subtitle {
+	color: #6a6a6a;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 1.08px;
+	max-width: 905px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.button {
+	display: inline-block;
+	background-color: #3c3c3c;
+	padding: 5px;
+	width: 220px;
+}
+
+span {
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: 1.44px;
+	display: block;
+	background-color: #3c3c3c;
+	text-align: center;
+	padding: 10px 30px;
+	border: 1px solid #ffffff62;
+	opacity: 0.6;
+}
+
+span:hover {
+	opacity: 1;
+}
+
+.consectetur {
+	text-align: center;
+	margin-bottom: 107px;
+}
+
+.consectetur__text {
+	text-align: left;
+	display: inline-block;
+	max-width: 500px;
+	margin-right: 88px;
+	padding-top: 100px;
+}
+
+.consectetur__title {
+	margin-bottom: 60px;
+}
+
+.consectetur__subtitle {
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.consectetur__subtitle p {
+	margin-bottom: 30px;
+}
+
+.consectetur__bottom {
+	text-align: left;
+}
+
+.consectetur__bottom-image {
+	margin-left: -200px;
+	margin-right: 50px;
+}
+
+.consectetur__subtext {
+	width: 522px;
+	height: 131px;
+	display: inline-block;
+	color: #6a6a6a;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	letter-spacing: 1.44px;
+	position: relative;
+	margin: 130px 0px 0px 0px;
+	border-left: 1px solid #dadada;
+	padding-left: 20px;
+}
+
+.consectetur__subtext::before {
+	content: "";
+	position: absolute;
+	left: -38%;
+	bottom: 50%;
+	width: 194px;
+	height: 1px;
+	background-color: #dadada;
+}
+
+.ipsum {
+	position: relative;
+	margin-bottom: 179px;
+}
+
+.ipsum__title {
+	margin-bottom: 40px;
+}
+
+.ipsum__subtitle {
+	margin-bottom: 55px;
+}
+
+.ipsum__touch {
+	position: relative;
+}
+
+.ipsum__touch-img {
+	display: block;
+	margin: 0px auto;
+	width: 63%;
+}
+
+.ipsum__item-left {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	padding: 20px 19px 20px 18px;
+	width: 60px;
+	height: 170px;
+	border: 1px solid #ffffff;
+	background-color: #3c3c3c;
+}
+
+.ipsum__item-icon {
+	margin: 0px auto;
+	margin-bottom: 28px;
+	display: block;
+	opacity: 0.5;
+}
+
+.ipsum__item-icon:hover {
+	opacity: 1;
+}
+
+.ipsum__item-right {
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+
+.ipsum__item-img {
+	display: block;
+	margin-bottom: 10px;
+	opacity: 0.6;
+}
+
+.ipsum__item-img:hover {
+	opacity: 1;
+}
+
+.ipsum__touch-link {
+	text-align: center;
+	width: 38px;
+	height: 38px;
+	background-color: #e6e6e6;
+	border-radius: 50%;
+	opacity: 0.8;
+	display: inline-block;
+}
+
+.ipsum__touch-link:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.ipsum__touch-icon {
+	background-color: black;
+	margin: 0px auto;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	padding: 9px;
+	margin-top: 5px;
+}
+
+.ipsum__touch-icon:hover {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.--bar {
+	position: absolute;
+	bottom: 77%;
+	right: 29%;
+}
+
+.--stem {
+	position: absolute;
+	bottom: 75%;
+	right: 38.5%;
+}
+
+.--frame {
+	position: absolute;
+	bottom: 68%;
+	left: 44%;
+}
+
+.--wheel {
+	position: absolute;
+	left: 31%;
+	bottom: 31%;
+}
+
+.--crank {
+	position: absolute;
+	bottom: 25.5%;
+	left: 46%;
+}
+
+.--tire {
+	position: absolute;
+	right: 21%;
+	bottom: 22.5%;
+}
+
+.dolor {
+	margin-bottom: 150px;
+}
+
+.dolor__title {
+	margin-bottom: 38px;
+}
+
+.dolor__subtitle {
+	margin-bottom: 81px;
+}
+
+.dolor__columns {
+	text-align: center;
+}
+
+.dolor__columns-item {
+	display: inline-block;
+	width: 24%;
+	min-width: 270px;
+}
+
+.dolor__item-image {
+	width: 80%;
+	margin-bottom: 70px;
+}
+
+.dolor__item-name {
+	font-family: "Old Standard TT";
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1.1px;
+	color: #3c3c3c;
+	margin-bottom: 15px;
+}
+
+.dolor__item-price {
+	color: #6a6a6a;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 55px;
+}
+
+._webp .header {
+	background: url(../img/bg.webp) 0 0 / cover no-repeat;
+}
+
+._webp .subscribe {
+	background: url(../img/bg.webp) 0 0 / cover no-repeat;
+}
